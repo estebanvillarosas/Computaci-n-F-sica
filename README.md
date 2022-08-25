@@ -1,2 +1,2 @@
-# Computaci-n-F-sica
+# Computacion-Fisica
 Clase de Computación Primer Semestre
