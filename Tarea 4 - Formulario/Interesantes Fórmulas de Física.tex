@@ -1,0 +1,331 @@
+\documentclass[letterpaper,12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[right=2.5cm,left=3cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{bbding}
+\usepackage[dvipsnames,usenames,svgnames,x11names]{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{dsfont}
+\usepackage{multirow}
+\usepackage{amsfonts}
+\usepackage{array}
+
+%------------------------
+\usepackage{fancyhdr}
+
+%-------------------------
+\pagestyle{fancy}
+
+    \fancyhf{}
+    \chead{Mecánica newtoniana} 
+    \lfoot{Villa Rosas Esteban}
+    \rfoot{\thepage}
+    
+
+\begin{document}
+\begin{center}
+
+{\Huge{{\textbf{\emph{\underline{Interesantes Fórmulas de Física}}}}}}\\
+
+{\small{Esteban Villa Rosas }}\\
+
+{\small{October 28, 2022}}
+
+\end{center}
+
+\section{\Large{Mecánica Newtoniana}} 
+
+\begin{itemize}
+    
+    \item[\Plane]\large{\underline{Momento de Inercia:}}\\\\ \small{El subíndice V de la integral indica que se integra sobre todo el volumen del cuerpo. Se resuelve a través de una integral triple.Este concepto desempeña en el movimiento de rotación un papel análogo al de masa inercial en el caso del movimiento rectilíneo y uniforme. La masa inercial es la resistencia que presenta un cuerpo a ser acelerado en traslación y el momento de Inercia es la resistencia que presenta un cuerpo a ser acelerado en rotación. 
+    
+    $$I=\dst \int_M r^2 \dd m=\int_V\rho r^2 \dd V$$
+    
+    }
+    
+    \item[\Plane]\large{\underline{Fuerza de Gravedad:}}\\\\
+    \small{La fuerza gravitacional entre dos cuerpos es directamente proporcional al producto de sus masas e inversamente proporcional al cuadrado de la distancia que los separa. Matemáticamente se expresa de la siguiente forma:
+
+    \textcolor{red}{$$\vec{F_{12}}=-G\dst\frac{m_1m_2}{|r|^2}\vec{u_r}$$}
+  
+    dónde:
+
+\begin{itemize}
+    \item G es la constante de gravitación universal.
+    \item $m_1$ y $m_2$ son las masas de los cuepos que interaccionan.
+    \item $\vec{u_r}$ es un vector unitario que expresa la dirección de actuación de la fuerza.
+
+\end{itemize}
+     }
+
+    \item[\Plane]\large{\underline{Fuerza Centrípeta:}}\\\\
+    \small{La fuerza centrípeta es la responsable de dotar al cuerpo con aceleración normal. Su valor viene dado por:
+
+    $$\vec{F_c}=m\vec{a_c}= m \frac{v^2}{r}\vec{e_r}=m \omega^2\vec{r}$$
+
+    donde:
+
+\begin{itemize}
+    \item $\vec{F_c}$ Es la fuerza centrípeta. Su sentido, al igual que el de la aceleración centrípeta, apunta hacia el centro de curvatura. Su unidad de medida en el Sistema Internacional (S.I.) es el newton (N).
+    \item m Masa del cuerpo. Su unidad de medida en el Sistema Internacional (S.I.) es el kilogramo (kg).
+    \item $\vec{a_c}$ Aceleración normal o centrípeta. Su unidad de medida en el Sistema Internacional (S.I.) es el metro por segundo al cuadrado.
+
+\end{itemize}
+    
+    }
+
+    \item[\Plane]\large{\underline{Potencial Gravitatotio:}}\\\\
+    \small{La expresión general para la energía potencial gravitacional, surge de la ley de la gravedad, y es igual al trabajo realizado contra la gravedad, para llevar una masa a un punto determinado del espacio. Como consecuencia de la naturaleza de la fuerza de gravedad dependiente del inverso del cuadrado, la fuerza se acerca a cero para grandes distancias, y por tanto cobra sentido elegir el cero de energía potencial gravitacional a una distancia exterior infinita:
+
+    $$\nabla \Phi=-\frac{GmM}{r}$$
+
+    donde:
+    
+\begin{itemize}
+    \item G es la constante gravitacional.
+    \item  M es la masa del cuerpo atractivo.
+    \item r es la distancia entre sus centros.
+
+\end{itemize}
+
+    }
+
+    \item[\Plane]\large{\underline{Equilibrio Estático:}}\\\\
+    \small{Según la segunda ley del movimiento de Newton, la aceleración lineal de un cuerpo rígido es causada por una fuerza neta que actúa sobre este, o
+
+    $$\dst\sum^n_{i=1} \vec {F_i}= m \cdot
+    \vec {a}$$
+
+    Aquí, la suma es de todas las fuerzas externas que actúan sobre el cuerpo, donde m es su masa y  $\vec a$ es la aceleración lineal de su centro de masa (un concepto del que hablamos en Momento lineal y colisiones sobre el momento lineal y las colisiones). En equilibrio, la aceleración lineal es cero. Si ponemos la aceleración a cero en la ecuación obtenemos la siguiente ecuación: 
+
+
+    $$\dst\sum^n_{i=1} \vec {F_i}= m \cdot
+    \vec {a}=\vec {0}$$
+
+    }
+\pagestyle{fancy}
+
+    \fancyhf{}
+    \chead{Electricidad y Magnetismo} 
+    \lfoot{Villa Rosas Esteban}
+    \rfoot{\thepage}
+    
+\section{\Large{Electricidad y Magnetismo}}
+
+    \item[\HandRight]\large{\underline{Ley de Laplace:}}\\\\
+    \small{El campo magnético en un punto P el cuál resulta de la corriente de un campo eléctrico, está dada por la Ley de Laplace. Según esta ley, $d\vec{l}\parallel\vec{I}$ y $\vec{r}$ apunta de $d\vec{l}$ a P.
+
+
+    $$d\vec{B_p}=\frac{\mu I}{4\pi r^2}d\vec{l}\times\vec{e_r}$$
+
+    }
+
+    \item[\HandRight]\large{\underline{Fuerza de Lorentz:}}\\\\
+    \small{La fuerza de Lorentz es una fuerza la cual siente la partícula cargada y que se mueve a través del campo magnético. El origen de esta fuerza es una transformación relativista de la fuerza de Coulomb.
+
+    $$\vec{F_L}=Q(\vec{u}\times\vec{B})=l(\vec{I}\times\vec{B}$$
+
+    }
+
+    \item[\HandRight]\large{\underline{Densidad de energía de una onda electromagnética:}}\\\\
+    \small{La densidad de energía de una onda electromagnética de un dipolo en vibración a una distancia larga es:
+
+    $$\omega=\epsilon_0 E^2=\frac{p_0^2sen^2(\theta)\omega^4}{16\pi^2\epsilon_0r^2c^4}sen^2(kr-\omega t)$$
+
+    $$\langle\omega\rangle_t=\frac{p_0^2sen^2(\theta)\omega^4}{32\pi^2\epsilon_0r^2c^4}$$
+
+    $$P=\frac{ck^4|\vec{p} |^2}{12\pi\omega_0}$$
+
+    }
+
+    \item[\HandRight]\large{\underline{Ley de Gauss para la Electricidad:}}\\\\
+    \small{El flujo eléctrico exterior de cualquier de cualquier superficie cerrada es proporcional a la carga total encerrada dentro de la superficie.La fórmula integral de la ley de Gauss encuentra aplicación en el cálculo de los campos eléctricos alrededor de los objetos cargados.Cuando se aplica la ley de Gauss a un campo eléctrico de una carga puntual, se puede ver que es consistente con la ley de Coulomb.
+
+    Forma integral:
+    
+    $$\oint\vec{E}\cdot\vec{dA}=\frac{q}{\epsilon_0}=4\pi kq$$
+    
+    Forma diferencial:
+    
+    $$\nabla\cdot E=\frac{p}{\epsilon_0}=4\pi kp$$
+    
+    }
+
+    
+    \item[\HandRight]\large{\underline{Ley de Gauss para el Magnetismo:}}\\\\
+    \small{El flujo magnético neto exterior de cualquier superficie cerrada es cero. Esto equivale a una declaración sobre el origen del campo magnético. En un dipolo magnético, cualquier superficie encerrada contiene el mismo flujo magnético dirigido hacia el polo sur que el flujo magnético proveniente del polo norte. En las fuentes dipolares, el flujo neto siempre es cero. 
+    
+    Forma integral:
+    
+    $$\oint\vec{B}\cdot\vec{dA}=0$$
+    
+    Forma diferencial:
+    
+    $$\nabla\cdot B=0$$
+    
+    }
+
+    \item[\HandRight]\large{\underline{Ley de Faraday para la Inducción:}}\\\\
+    \small{La integral de línea del campo eléctrico alrededor de un bucle cerrado es igual al negativo de la velocidad de cambio del flujo magnético a través del área encerrada por el bucle. Esta integral de línea es igual al voltaje generado o fem en el bucle, de modo que la ley de Faraday es el fundamento de los generadores eléctricos. Tambien es el fundamento de las inductancias y los transformadores.
+    
+    Forma integral:
+    
+    $$\oint\vec{E}\cdot\vec{ds}=-\frac{d\Phi_B}{dt}$$
+    
+    Forma diferencial:
+    
+    $$\nabla\times E=-\frac{\partial B}{\partial t}$$
+    
+    }
+    
+    \item[\HandRight]\large{\underline{Ley de Ampere:}}\\\\
+    \small{En el caso de un campo eléctrico estático, la integral de línea del campo magnético alrededor de un bucle cerrado es proporcional a la corriente eléctrica que fluye a través del cable del bucle. Esto es útil para el cálculo del campo magnético de geometrías simples.
+    
+    Forma integral:
+    
+    \textcolor{blue}{$$\oint B\cdot ds=\mu_0i+\frac{1}{c^2}\frac{\partial}{\partial t}\int E\cdot dA$$}
+    
+    Forma diferencial:
+    
+    \textcolor{blue}{$$\nabla xB=\frac{4\pi k}{c^2}J+\frac{1}{c^2}\frac{\partial E}{\partial t}$$}
+    
+    }
+    
+    \pagestyle{fancy}
+
+    \fancyhf{}
+    \chead{Mecánica Cuántica} 
+    \lfoot{Villa Rosas Esteban}
+    \rfoot{\thepage}
+    
+\section{\Large{Mecánica Cuántica}}
+    
+    \item[\bigstar]\large{\underline{Ley de Planck:}}\\\\
+    \small{La Ley de Planck de la distribución de la energía para la radiación de un cuerpo negro es:
+    
+    $$\omega (f)=\frac{8\pi hf^3}{c^3}\frac{1}{e^{hf/kT}-1}, \to \omega (\lambda)=\frac{8\pi hc}{\lambda^5}\frac{1}{e^{he/\lambda kT}-1}$$
+    
+    }
+    
+    \item[\bigstar]\large{\underline{Funciones de onda:}}\\\\
+    \small{El carácter de onda de las partículas puede ser descrito por una función de onda $\Psi$. Esta función puede ser descrita en un espacio de momentos o normal. Ambas funciones son transformadas de Fourier donde: 
+    
+    $$\varPhi (k,t)=\frac{1}{\sqrt{h}}\int\Psi(x,t)e^{-ikx}dx$$  $$\Psi(x,t)=\frac{1}{\sqrt{h}}\int\varPhi(k,t)e^{ikx}dk$$
+   
+    }
+    
+    \item[\bigstar]\large{\underline{Ecuación de Klein-Gordon:}}\\\\
+    \small{La ecuación de Klein-Gordon o ecuación K-G debe su nombre a Oskar Klein y Walter Gordon, y es la ecuación que describe un campo escalar libre en teoría cuántica de campos.
+
+
+    \textcolor{green}{$$(\nabla_2-\frac{1}{c^2}\frac{\partial^2}{\partial t^2}-\frac{m_0^2c^2}{h^2})\psi(\vec{x},t)=0$$  }
+   
+    }
+    
+    \item[\bigstar]\large{\underline{Ley de Stefan-Boltzmann:}}\\\\
+    \small{Establece que un cuerpo negro emite radiación térmica con una potencia emisiva hemisférica total proporcional a la cuarta potencia de su temperatura. La ley es muy precisa solo para objetos negros ideales, los radiadores perfectos, llamados cuerpos negros; funciona como una buena aproximación para la mayoría de los cuerpos grises.
+
+
+    $$P=A\sigma T^4$$  
+   
+    }
+    
+    \item[\bigstar]\large{\underline{Ley de Wien:}}\\\\
+    \small{Es una ley que establece que hay una relación inversa entre la longitud de onda en la que se produce el pico de emisión de un cuerpo negro ($\lambda_{maximo}$) y su temperatura ($T$)
+
+
+    $$T\lambda_{maximo}=k_W$$  
+    
+    }
+    
+    \pagestyle{fancy}
+
+    \fancyhf{}
+    \chead{Relatividad Espacial y General} 
+    \lfoot{Villa Rosas Esteban}
+    \rfoot{\thepage}
+    
+\section{\Large{Relatividad Espacial y General}}
+
+    \item[\clubsuit]\large{\underline{El Postulado de la Geodésica:}}\\\\
+    \small{Partículas en caída libre se mueven a lo largo de una geodésica en el espacio-tiempo con un tiempo propio $\varGamma$ o la longitud de arco s como parámetro. para las partículas con una $m=0$ en reposo (como por ejemplo los fotones), se requiere del uso de un parámetro libre debido a que $ds=0$. De $\delta\int ds=0$ las ecuaciones de movimiento pueden derivarse de la ecuación de la geodésica:
+
+
+    \textcolor{violet}{$$\frac{d^2 x^\alpha}{ds^2}+\varGamma_{\beta\gamma}^\alpha\frac{dx^\beta}{ds}\frac{dx^\gamma}{ds}=0$$}  
+    
+    }
+
+    \item[\clubsuit]\large{\underline{Tensor métrico:}}\\\\
+    \small{En geometría de Riemann, el tensor métrico es un tensor de rango 2 que se utiliza para definir conceptos métricos como distancia, ángulo y volumen en un espacio localmente euclídeo.
+
+
+    $$g_{ij}=\dst\sum_{k}\frac{\partial\bar{x}^k}{\partial x^i}\frac{\partial\bar{x}^k}{\partial x^j}$$  
+    
+    }
+    
+    \item[\clubsuit]\large{\underline{Tensor de energía-momento:}}\\\\
+    \small{Es una cantidad tensorial en la teoría de la relatividad de Einstein que se usa para describir el flujo lineal de energía y de momento lineal en el contexto de la teoría de la relatividad, además de ser de suma importancia en las ecuaciones de Einstein para el campo gravitacional.
+
+
+    $$T_{\mu\nu}=(\varrho c^2+p)u_\mu u_\nu + pg_{\mu\nu}+\frac{1}{c^2}(F_{\mu\alpha}F_\nu^\alpha+\frac{1}{4}g_{\mu\nu}F^{\alpha\beta}F_{\alpha\beta})$$  
+    
+    }
+    
+    \pagestyle{fancy}
+
+    \fancyhf{}
+    \chead{Cinemática} 
+    \lfoot{Villa Rosas Esteban}
+    \rfoot{\thepage}
+    
+\section{\Large{Cinemática}} 
+    
+    \item[\checkmark]\large{\underline{Primera ecuación de cinemática:}}\\\\
+    \small{Cuando estamos en aceleración constante, podemos saber la velocidad final, conociendo la velocidad inicial, la aceleración y el tiempo.
+
+
+    $$V_f=V_i+at$$  
+    
+    }
+    
+    \item[\checkmark]\large{\underline{Distancia:}}\\\\
+    \small{Al estar en una aceleración constante, se puede calcualar la distancia que se recorrio, conociendo la velocidad final, la velocidad inicial y el tiempo.
+
+
+    $$d=\frac{1}{2}(V_f+V_i)t$$  
+    
+    }
+    
+     
+    \item[\checkmark]\large{\underline{Velocidad media:}}\\\\
+    \small{La velocidad media de un objeto se define como la distancia recorrida dividida por el tiempo transcurrido.
+
+
+    $$V=\frac{\Delta x}{\Delta t}=\frac{x_f-x_i}{t_f-t_i}$$  
+    
+    }
+    
+    \item[\checkmark]\large{\underline{Velocidad instantanea:}}\\\\
+    \small{La velocidad física de un cuerpo en un punto o velocidad instantánea es la que tiene el cuerpo en un instante específico, en un punto determinado de su trayectoria.
+
+
+    $$V=\lim_{t \rightarrow 0}{\frac{\Delta x}{\Delta t}}=\frac{dx}{dt}$$ 
+ 
+    }
+    
+    \item[\checkmark]\large{\underline{Aceleración media:}}\\\\
+    \small{La aceleración media representa el cambio que experimenta la velocidad instantánea durante un intervalo de tiempo. Algebraicamente es el cociente entre la variación de la velocidad instantánea y el intervalo de tiempo.
+
+
+    \textcolor{orange}{$$a=\frac{\Delta V}{\Delta t}=\frac{V_f-V_i}{t_f-t_i}$$} 
+    
+    }
+ 
+ 
+\end{itemize}
+
+\end{document}
